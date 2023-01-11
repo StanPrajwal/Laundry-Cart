@@ -1,0 +1,24 @@
+.side-nav {
+  width: 57px;
+  height: 86vh;
+  background: #5861ae 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1em;
+  gap: 10px;
+}
+
+.nav-btn {
+  width: 57px;
+  height: 47px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: white;
+  text-align: center;
+}

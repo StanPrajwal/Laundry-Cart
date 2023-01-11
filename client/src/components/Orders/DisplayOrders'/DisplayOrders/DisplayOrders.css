@@ -1,0 +1,48 @@
+.displayOrders {
+  padding: 40px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.displayOrders .header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.displayOrders .header .heading {
+  text-align: left;
+  font: normal normal 600 18px/48px Open Sans;
+  letter-spacing: 0px;
+  color: #1e2022;
+  text-transform: capitalize;
+}
+
+.displayOrders .header .searchSection {
+  display: flex;
+  gap: 30px;
+}
+
+.displayOrders .header .search {
+  display: flex;
+  position: relative;
+}
+
+.displayOrders .header .search .searchLogo {
+  position: absolute;
+  top: 12px;
+  left: 5px;
+}
+
+.displayOrders .header .search .form-control {
+  border: none;
+  border-radius: unset;
+  border-bottom: 1px solid #ddd;
+  padding-left: 30px;
+  width: 200px;
+  color: #565657;
+}
+
+.displayOrders .header .search .form-control:hover {
+  border-bottom: 1px solid #5861ae;
+}

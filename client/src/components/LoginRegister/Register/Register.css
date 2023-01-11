@@ -1,0 +1,9 @@
+.register {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  /* height: 81vh;
+ 
+  gap: 40px; */
+
+}

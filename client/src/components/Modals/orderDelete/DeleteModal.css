@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#delete {
+  width: 415px;
+}
+
+#delete #delete-header {
+  background: #5861ae 0% 0% no-repeat padding-box;
+  border-radius: 2px 2px 1px 1px;
+  height: 43px;
+}
+
+#delete-header .alert {
+  text-align: left;
+  font: normal normal 600 14px Open Sans;
+  letter-spacing: 0.34px;
+  color: #ffffff;
+}
+
+#delete-body {
+  height: 210px;
+}
+
+.deleteModal-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 40px;
+}
+
+.deleteModal-body .exclamation {
+  color: #f40808;
+  font-size: 50px;
+}
+
+.deleteModal-body .delete-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.deleteModal-body .delete-description .text {
+  width: 218px;
+  height: 38px;
+  text-align: center;
+  letter-spacing: 0.34px;
+}
+
+.deleteModal-body .delete-description .delete-btn {
+  width: 107px;
+  background: #5861ae 0% 0% no-repeat padding-box;
+  border: 1px solid #5861ae;
+  border-radius: 4px;
+}
+
+.orderNo {
+  text-align: center;
+  font: normal normal 600 14px/19px Open Sans;
+  letter-spacing: 0.34px;
+  color: #5861ae;
+}

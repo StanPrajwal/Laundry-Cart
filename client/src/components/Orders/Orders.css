@@ -1,0 +1,4 @@
+.orders .main-section {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}

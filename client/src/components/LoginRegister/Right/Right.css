@@ -1,0 +1,149 @@
+/* Login */
+#error{
+  color:red;
+}
+.register-container{
+  /* width: 100%; */
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap:2rem;
+}
+.login .right,
+.register .right {
+  position: relative;
+  display: flex;
+  background: #b9c0fd1a 0% 0% no-repeat padding-box;
+  padding-left: 130px;
+  padding-right: 150px;
+  flex-direction: column;
+  justify-content: center;
+  /* height: 100%; */
+  /* width: 100%; */
+  text-align: left;
+}
+
+.login .right::after,
+.register .right::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 200px;
+  top: 35%;
+  left: 0;
+  background: #5861ae 0% 0% no-repeat padding-box;
+  box-shadow: 0px -3px 6px #0000000b;
+  opacity: 0.5;
+}
+
+.login .right .heading {
+  font: normal normal medium 32px/60px Monsterrat;
+  letter-spacing: 1.28px;
+  color: #4552c1;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.login .right .form-control,
+.register .right .form-control {
+  border: none;
+  border-bottom: 1px solid #77838f;
+  border-radius: unset;
+  background: transparent;
+  margin-top: 60px;
+  color: #424548;
+  font: normal normal 600 17px Open Sans;
+  letter-spacing: 0.6px;
+}
+
+.right .form-control:focus {
+  border-bottom: 1px solid #5861ae;
+}
+
+.right label {
+  color: #5861ae;
+  font: normal normal normal 15px Open Sans;
+}
+
+.login .right .image {
+  background: transparent url("../../../../public/images/padlock.png") 0% 0%
+    no-repeat;
+  width: 15px;
+  height: 21px;
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+.login .right .text {
+  position: absolute;
+  right: 0;
+  margin-top: 10px;
+  font: normal normal medium 16px Monsterrat;
+  letter-spacing: 0.64px;
+  color: #4552c1;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.right .btn {
+  background: #5861ae 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  text-align: center;
+  font: normal normal bold 15px/20px Open Sans;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  margin-top: 100px;
+  padding: 15px 50px;
+}
+
+/* Register */
+
+.register .formDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.register .right {
+  padding: 50px 60px 60px 60px;
+}
+
+.register .right .heading {
+  text-align: left;
+  font: normal normal normal 32px/60px Montserrat;
+  letter-spacing: 1.28px;
+  color: #5861ae;
+  text-transform: uppercase;
+}
+
+.register .right .form-control,
+.register .right select {
+  /* width: 600px; */
+  margin-top: 10px;
+  background: transparent;
+}
+
+.register .right select {
+  border: unset;
+  border-bottom: 1px solid #77838f;
+  border-radius: unset;
+}
+
+.register .right .terms {
+  flex: 1;
+  margin-top: 50px;
+}
+
+.register .right .terms .terms-text {
+  text-align: left;
+  text-decoration: underline;
+  font: normal normal normal 14px/20px Open Sans;
+  letter-spacing: 0.49px;
+  color: #5861ae;
+  margin-left: 10px;
+}
+
+.register .right .btnDiv {
+  margin-top: -50px;
+}

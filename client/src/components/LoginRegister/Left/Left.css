@@ -1,0 +1,86 @@
+/* Login */
+
+.login .left {
+  display: flex;
+  padding-left: 90px;
+  flex-direction: column;
+  justify-content: center;
+ 
+  /* width: 100%; */
+}
+
+.login .left .heading {
+  width: 411px;
+  color: #5861ae;
+  font: normal normal 900 100px/120px Montserrat;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.login .left .subHeading {
+  width: 370px;
+  margin-top: 14px;
+  text-align: left;
+  font: normal normal normal 20px Montserrat;
+  letter-spacing: 0.8px;
+  color: #565657;
+  text-transform: capitalize;
+}
+
+.login .left .text {
+  margin-top: 90px;
+  text-align: left;
+  font: normal normal normal 16px/26px montserrat;
+  letter-spacing: 0.64px;
+  color: #565657;
+  text-transform: capitalize;
+}
+
+.left .btn {
+  border: 2px solid #5861ae;
+  text-align: center;
+  border-radius: 4px;
+  width: 150px;
+  padding: 14px 40px;
+  font: normal normal bold 15px/20px Open Sans;
+  letter-spacing: 0.3px;
+  color: #5861ae;
+  margin-top: 20px;
+}
+
+/* REGISTER */
+
+.register .left {
+  display: flex;
+  padding: 0px 60px;
+  flex-direction: column;
+  justify-content: center;
+  /* height: 100%; */
+  /* width: 30%; */
+  text-align: left;
+}
+
+.register .left .heading {
+  width: 284px;
+  font: normal normal 900 62px/80px Monsterrat;
+  letter-spacing: 2.48px;
+  color: #5861ae;
+  text-transform: capitalize;
+  margin-top: 120px;
+}
+
+.register .left .subHeading {
+  width: 185px;
+  font: normal normal normal 20px/32px Montserrat;
+  letter-spacing: 0.8px;
+  color: #565657;
+  text-transform: capitalize;
+}
+
+.register .left .text {
+  font: normal normal normal 16px/26px Montserrat;
+  letter-spacing: 0.64px;
+  color: #565657;
+  text-transform: capitalize;
+  margin-top: 2rem;
+}

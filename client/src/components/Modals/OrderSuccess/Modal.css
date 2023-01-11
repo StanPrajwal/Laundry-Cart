@@ -1,0 +1,56 @@
+#order-modal {
+  width: 466px;
+}
+
+.modal-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 504px;
+  gap: 30px;
+}
+
+.modal-body .logo {
+  width: 120px;
+  height: 120px;
+  background: #5861ae60 0% 0% no-repeat padding-box;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-body .logo .check {
+  font-size: 60px;
+  color: #5861ae;
+}
+
+.modal-body .order-status {
+  width: 297px;
+  height: 66px;
+  text-align: center;
+  font: normal normal bold 24px/33px Open Sans;
+  letter-spacing: 0.43px;
+  color: #0a1f44;
+}
+
+.modal-body .order-description {
+  width: 263px;
+  height: 45px;
+  text-align: center;
+  font: normal normal normal 17px Open Sans;
+  letter-spacing: -0.41px;
+  color: #0a1f44;
+}
+
+.modal-body .modal-btn {
+  border: none;
+  width: 235px;
+  height: 44px;
+  background: #5861ae 0% 0% no-repeat padding-box;
+  border-radius: 22px;
+  text-align: center;
+  font: normal normal bold 17px/23px Open Sans;
+  letter-spacing: -0.41px;
+}

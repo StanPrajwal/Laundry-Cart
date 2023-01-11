@@ -1,0 +1,312 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#offCanvas {
+  width: 926px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  max-height: 100vh;
+}
+
+ul {
+  list-style: none;
+}
+
+#header {
+  background: #5861ae 0% 0% no-repeat padding-box;
+}
+
+.btn-close {
+  color: #fff;
+}
+
+#body {
+  padding: 0;
+}
+
+#header .heading {
+  text-align: left;
+  font: normal normal 600 22px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+#offCanvas .summary-section .store-address {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 0px 35px;
+  height: 100px;
+  background: #f4f9ff 0% 0% no-repeat padding-box;
+}
+
+#offCanvas .summary-section .store-address .address .heading,
+#offCanvas .summary-section .store-address .phone .heading {
+  margin-bottom: 5px;
+  margin-right: 100px;
+  text-align: left;
+  font: normal normal 600 16px/22px Open Sans;
+  letter-spacing: 0.38px;
+  color: #1b2734;
+}
+
+#offCanvas .summary-section .store-address .address .text,
+#offCanvas .summary-section .store-address .phone .text {
+  text-align: left;
+  font: normal normal normal 16px/22px Open Sans;
+  letter-spacing: 0.38px;
+  color: #1b2734;
+}
+
+#offCanvas .summary-section .store-address .select-address {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  width: 200px;
+  text-align: left;
+  font: normal normal 600 16px/27px Open Sans;
+  letter-spacing: 0.56px;
+  color: #3e3f40;
+  background-color: #f4f9ff;
+}
+
+#offCanvas .summary-section .order-details {
+  border: 1px solid #eee;
+  height: 50vh;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+#offCanvas .summary-section .order-details .heading {
+  text-align: left;
+  font: normal normal 600 14px/19px Open Sans;
+  letter-spacing: 0.42px;
+  color: #3b3737;
+  margin-bottom: 20px;
+}
+
+#offCanvas .summary-section .order-details .order-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 35vh;
+}
+
+#offCanvas .summary-section .order-details .order-lists .order-items {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+#offCanvas .summary-section .order-details .order-lists .product-type {
+  text-align: left;
+  font: normal normal normal 18px Open Sans;
+  letter-spacing: 0.43px;
+  color: #1b2734;
+}
+
+#offCanvas .summary-section .order-details .order-lists .wash-type {
+  text-align: left;
+  font: italic normal normal 16px/22px Open Sans;
+  letter-spacing: 0.38px;
+  color: #1b2734;
+}
+
+#offCanvas .summary-section .order-details .order-lists .items {
+  text-align: left;
+  font: normal normal 600 16px/22px Open Sans;
+  letter-spacing: 0.38px;
+  color: #1b2734;
+}
+
+#offCanvas .summary-section .order-details .order-lists .price {
+  text-align: left;
+  font: normal normal 600 20px/27px Open Sans;
+  letter-spacing: 0.48px;
+  color: #5861ae;
+}
+
+#offCanvas .summary-section .footer {
+  background: #5861ae 0% 0% no-repeat padding-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#offCanvas .summary-section .footer .total-price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px 40px;
+  gap: 40px;
+}
+
+#offCanvas .summary-section .footer .total-price .text {
+  margin-bottom: 0px;
+  text-align: left;
+  font: normal normal bold 18px/24px Open Sans;
+  letter-spacing: 0.43px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+#offCanvas .summary-section .footer .total-price .price {
+  margin-bottom: 0px;
+  text-align: left;
+  font: normal normal bold 22px/30px Open Sans;
+  letter-spacing: 0.53px;
+  color: #ffffff;
+}
+
+#offCanvas .summary-section .sub-total {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px 40px;
+}
+
+#offCanvas .summary-section .sub-total .total,
+#offCanvas .summary-section .sub-total .charges {
+  display: flex;
+  gap: 50px;
+}
+
+#offCanvas .summary-section .sub-total .total .text,
+#offCanvas .summary-section .sub-total .charges .text {
+  text-align: left;
+  font: normal normal normal 16px/22px Open Sans;
+  letter-spacing: 0.38px;
+  color: #1b2734;
+}
+
+#offCanvas .summary-section .sub-total .total .amount,
+#offCanvas .summary-section .sub-total .charges .amount {
+  text-align: left;
+  font: normal normal 600 18px/24px Open Sans;
+  letter-spacing: 0.43px;
+  color: #272727;
+}
+
+#offCanvas .summary-section .sub-total .charges {
+  border-top: 1px solid #ddd;
+  padding: 10px 0px 0px 0px;
+}
+
+#offCanvas .summary-section .user-address {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 25.5vh;
+}
+
+#offCanvas .summary-section .user-address .address-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+#offCanvas .summary-section .user-address .heading {
+  text-align: left;
+  font: normal normal 600 14px/19px Open Sans;
+  letter-spacing: 0.42px;
+  color: #3b3737;
+}
+
+#offCanvas .summary-section .user-address .address {
+  width: 236px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #5861ae;
+  border-radius: 4px;
+  padding: 5px 10px;
+  position: relative;
+}
+
+#offCanvas .summary-section .user-address .address img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#offCanvas .summary-section .user-address .address .heading {
+  text-align: left;
+  font: normal normal bold 18px/24px Open Sans;
+  letter-spacing: 0.18px;
+  color: #3e3f40;
+}
+
+#offCanvas .summary-section .user-address .address .area {
+  text-align: left;
+  font: normal normal normal 16px/22px Open Sans;
+  letter-spacing: 0.16px;
+  color: #3e3f40;
+}
+
+#offCanvas .summary-section .user-address .add-address .text {
+  text-align: left;
+  font: normal normal bold 18px/24px Open Sans;
+  letter-spacing: 0.18px;
+  color: #5861ae;
+}
+
+#offCanvas .summary-section .btn-div {
+  background: #f4f4f4 0% 0% no-repeat padding-box;
+  box-shadow: 0px -3px 6px #00000015;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 6.9vh;
+}
+
+#offCanvas .summary-section .btn-div .confirm-button {
+  background: #5861ae 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  border: none;
+  padding: 5px 20px;
+}
+
+#offCanvas .summary-section .trackOrder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 80px;
+}
+
+#offCanvas .summary-section .trackOrder > .status {
+  position: relative;
+  margin-right: 10px;
+  width: 120px;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font: normal normal normal 12px/17px Open Sans;
+  letter-spacing: 0.29px;
+  color: #1b2734;
+}
+#offCanvas .summary-section .trackOrder > .status::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #707070;
+  left: 0;
+  border-radius: 50%;
+}
+
+#offCanvas .summary-section .trackOrder #progressBar {
+  height: 1px;
+  width: 100px;
+  margin-left: -30px;
+  margin-right: 5px;
+}

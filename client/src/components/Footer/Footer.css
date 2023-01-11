@@ -1,0 +1,137 @@
+.referels {
+  height: 10vh;
+  border-top: 3px solid #5861ae;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f8f9ff 0% 0% no-repeat padding-box;
+  box-shadow: 0px -3px 6px #0000000b;
+}
+
+.referels .heading {
+  text-align: left;
+  font: normal normal 600 24px/26px Open Sans;
+  letter-spacing: 0.96px;
+  color: #5861ae;
+  margin-top: 15px;
+  margin-bottom: -1px;
+}
+
+.referels .terms {
+  text-align: left;
+  font: italic normal normal 10px/26px Open Sans;
+  letter-spacing: 0.4px;
+  color: #3d3d43;
+}
+
+/* socialLinks */
+
+.links {
+  background: transparent url("../../../public/images/Footer.png") 0% 0%
+    no-repeat padding-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 20vh;
+}
+
+.links .about-us {
+  flex: 1;
+}
+
+.links .about-us .heading {
+  font: normal normal 500 18px Montserrat;
+  letter-spacing: 0.18px;
+  color: #182838;
+  text-transform: uppercase;
+}
+
+.links .about-us .text {
+  font: normal normal normal 15px Montserrat;
+  letter-spacing: 0.6px;
+  color: #3d3d43;
+  text-transform: capitalize;
+}
+
+.links .siteLinks {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 2;
+}
+
+.links .siteLinks .heading {
+  text-align: left;
+  font: normal normal 500 16px Montserrat;
+  letter-spacing: 0.16px;
+  color: #182838;
+  text-transform: capitalize;
+}
+
+.links .siteLinks .text {
+  text-align: left;
+  font: normal normal normal 14px Montserrat;
+  letter-spacing: 0.14px;
+  color: #182838;
+  text-transform: capitalize;
+}
+
+.links .siteLinks .pricing,
+.links .siteLinks .contact {
+  align-self: flex-start;
+}
+
+.links .socialLinks {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links .socialLinks .heading {
+  text-align: center;
+  font: normal normal 500 18px Montserrat;
+  letter-spacing: 0.18px;
+  color: #182838;
+  text-transform: uppercase;
+}
+
+.links .socialLinks .linksImage {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.links .socialLinks .linksImage .facebook {
+  color: #858bc4;
+  width: 20px;
+  height: 20px;
+  margin-right: 25px;
+}
+.links .socialLinks .linksImage .instagram {
+  color: #858bc4;
+  width: 20px;
+  height: 20px;
+  margin-right: 25px;
+}
+.links .socialLinks .linksImage .linkedin {
+  color: #858bc4;
+  width: 20px;
+  height: 20px;
+  margin-right: 25px;
+}
+
+/* copyright */
+
+.copyright {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #182838 0% 0% no-repeat;
+  border: 1px solid #707070;
+  font: normal normal normal 12px Montserrat;
+  letter-spacing: 0.12px;
+  color: #ffffff;
+}
