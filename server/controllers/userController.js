@@ -22,15 +22,24 @@ const login = async (req, res) => {
 };
 
 const register = async function (req, res) {
-  const { name, email, password, phone } = req.body;
-  const address = req.body.address;
+  console.log(req.body)
+  const { name, email, password, phone,state,area,district,pincode } = req.body.data;
+  const address = {
+    state:state,
+    area:area,
+    district:district,
+    pincode:pincode
+  }
   try {
-    const user = await User.register(name, email, password, phone, address);
+    const user = await User.register(name, email, password, phone,address);
 
     // create a token
     token = createToken(user._id);
     res.status(200).json({ status: "success", user, token });
   } catch (error) {
+    if(error.code === 11000){
+      return res.status(401).json({error: "User Already Exist"})
+    }
     res.status(400).json({ error: error.message });
   }
 };

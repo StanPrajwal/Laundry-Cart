@@ -31,7 +31,7 @@ userSchema.statics.userLogin = async function (userEmailOrPhone, password) {
     (await this.findOne({ phone: userEmailOrPhone }));
 
   if (!user) {
-    console.log("login--1")
+    console.log("login--1",user)
     throw Error("Incorrect Email/Phone");
    
   }
@@ -55,7 +55,11 @@ userSchema.statics.register = async function (
   address
 ) {
   // Validation
-
+  console.log(name,
+    email,
+    password,
+    phone,
+    address)
   if (!email || !name || !password || !phone) {
     throw Error("All fields are required");
   }
@@ -89,6 +93,6 @@ userSchema.statics.register = async function (
 
   return user;
 };
-const userModel = mongoose.model("user", userSchema);
+const User = mongoose.model("User", userSchema);
 
-module.exports = userModel;
+module.exports = User;

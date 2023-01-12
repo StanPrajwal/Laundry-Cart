@@ -20,6 +20,7 @@ export default function Register(props) {
 
   function handleStateChange(e) {
     setState(e.target.value);
+    console.log(e.target.value)
     axios
       .get(
         `https://www.universal-tutorial.com/api/cities/${e.target.value}`,

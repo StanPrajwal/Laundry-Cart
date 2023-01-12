@@ -1,6 +1,6 @@
 .side-nav {
   width: 57px;
-  height: 86vh;
+  height: 100%;
   background: #5861ae 0% 0% no-repeat padding-box;
   display: flex;
   flex-direction: column;

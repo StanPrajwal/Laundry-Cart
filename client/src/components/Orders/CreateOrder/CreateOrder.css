@@ -131,6 +131,7 @@ input[type="number"] {
   margin-top: 20px;
   width: 300px;
   text-align: right;
+  margin-bottom: 1rem;
 }
 .btn-container .cancel-btn {
   border: 1px solid #5861ae;
